@@ -22,39 +22,41 @@
     </div>
     <div class="form-section">
         <p>This is not a real online service! Sign up now for your daily cute bird delivery. All cute bird pictures are hand crafted by a team of cute birds. The images are then wing-delivered to your inbox by storks.</p>
-        <h1 class="form-header">Sign up here!</h1>
         <form action='' method='post' class='sign-up-form'>
-            <div class="middle-section">
-                <div class="form-column">
-                    <div class='form-item'>
-                        <label for='first-name'>First Name</label>
-                        <input id='first-name' name='first-name' type='text'/>
+            <div class = "visual-white-section">
+                <h1 class="form-header">Sign up here!</h1>
+                <div class="middle-section">
+                    <div class="form-column">
+                        <div class='form-item'>
+                            <label for='first-name'>First Name</label>
+                            <input id='first-name' name='first-name' type='text'/>
+                        </div>
+                        <div class='form-item'>
+                            <label for='email'>Email</label>
+                            <input id='email' name='email' type='email' required/>
+                        </div>
+                        <div class='form-item'>
+                            <label for='password'>Password</label>
+                            <input id='password' name='password' type='password' required/>
+                        </div>
                     </div>
-                    <div class='form-item'>
-                        <label for='email'>Email</label>
-                        <input id='email' name='email' type='text'/>
-                    </div>
-                    <div class='form-item'>
-                        <label for='password'>Password</label>
-                        <input id='password' name='password' type='text'/>
-                    </div>
-                </div>
-                <div class="form-column">
-                    <div class='form-item'>
-                        <label for='last-name'>Last Name</label>
-                        <input id='last-name' name='last-name' type='text'/>
-                    </div>
-                    <div class='form-item'>
-                        <label for='phone-number'>Phone Number</label>
-                        <input id='phone-number' name='phone-number' type='text'/>
-                    </div>
-                    <div class='form-item'>
-                        <label for='confirm-password'>Confirm Password</label>
-                        <input id='confirm-password' name='confirm-password' type='text'/>
+                    <div class="form-column">
+                        <div class='form-item'>
+                            <label for='last-name'>Last Name</label>
+                            <input id='last-name' name='last-name' type='text'/>
+                        </div>
+                        <div class='form-item'>
+                            <label for='phone-number'>Phone Number</label>
+                            <input id='phone-number' name='phone-number' type='tel'/>
+                        </div>
+                        <div class='form-item'>
+                            <label for='confirm-password'>Confirm Password</label>
+                            <input id='confirm-password' name='confirm-password' type='password' required/>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class='form-item'>
+            <div class='form-item' id="sign-up-button">
                 <button>Create Account</button>
             </div>
         </form>

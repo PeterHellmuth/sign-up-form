@@ -14,7 +14,6 @@ body{
 }
 
 
-
 .splash-section {
     position: relative;
     width: 600px;
@@ -40,12 +39,22 @@ body{
 }
 
 .form-section{
-    padding-left: 5vw;
-    padding-right: 10vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: rgb(241, 241, 241);
 }
+
+
+.visual-white-section{
+    padding-left: 5vw;
+    padding-right: 10vw;
+    padding-top: 1vh;
+    background-color: white;
+    box-shadow: 0px 5px 10px rgb(110, 110, 110);
+}
+
+
 
 .splash-caption{
     position: absolute;
@@ -62,22 +71,30 @@ body{
 
 .middle-section {
     display: flex;
+
 }
 
 .form-column{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .form-item{
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
     display: flex;
     flex-direction: column;
-    appearance: none;
+    font-size: 24px;
 }
+
+
 
 .form-section>p{
     font-size: 32px;
+    padding-left: 5vw;
+    padding-right: 10vw;
 }
 
 .form-item>button{
@@ -85,7 +102,14 @@ body{
     color: white;
     padding: 10px 30px;
     border-radius: 10px;
-    width: 200px;
+    width: 250px;
+    height: 75px;
+    font-size: 24px;
+}
+
+#sign-up-button{
+    margin-left: 5vw;
+    margin-top: 30px;
 }
 
 .form-item>input{
