@@ -1,0 +1,55 @@
+@font-face {
+    font-family: cuteBirdFont;
+    src:url("CuteFont-Regular.ttf");
+}
+
+body{
+    margin: 0px;
+    display: flex;
+}
+
+.splash{
+    max-width: 600px;
+    display: inline;
+}
+
+.splash-section {
+    position: relative;
+    width: 600px;
+}
+
+#logo{
+    height: 100px;
+    width: auto;
+}
+
+.splash-logo{
+    position: absolute;
+    margin-top: -800px;
+    height: 100px;
+    color: white;
+    background-color: rgba(70, 70, 70, 0.6);
+    width: 600px;
+    font-family: cuteBirdFont;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-section{
+    padding-left: 5vw;
+}
+
+.splash-caption{
+    position: absolute;
+    margin-top: -100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+    background-color: rgba(70, 70, 70, 0.6);
+}
+
+.splash-caption>a{
+    color: white;
+}
